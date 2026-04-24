@@ -43,6 +43,7 @@ def clean_documents(documents: Iterable[SourceDocument]) -> list[SourceDocument]
                 issue_category=doc.issue_category,
                 file_name=doc.file_name,
                 text=clean_document_text(doc.text),
+                issue_tags=doc.issue_tags,
             )
         )
     return cleaned_docs

@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 from src.config import SETTINGS
-from src.data.metadata import SourceDocument
+from src.data.metadata import SourceDocument, parse_issue_tags
 from src.utils.io import read_text
 
 
@@ -33,6 +33,7 @@ def load_documents(base_dir: str | Path = ".") -> list[SourceDocument]:
                 issue_category=row.issue_category,
                 file_name=row.file_name,
                 text=read_text(text_path),
+                issue_tags=parse_issue_tags(row.issue_category),
             )
         )
 

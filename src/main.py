@@ -115,6 +115,7 @@ def build_retrieval_report(user_question: str) -> str:
                 f"{idx}. {chunk.title}",
                 f"   URL: {chunk.source_url}",
                 f"   Issue category: {chunk.issue_category}",
+                f"   Issue tags: {', '.join(getattr(chunk, 'issue_tags', [])) or chunk.issue_category}",
                 f"   Methods: {methods or 'unknown'}",
                 f"   Score: {score:.3f}",
                 f"   Snippet: {snippet}",

@@ -48,6 +48,7 @@ def render_sources(results: list[dict]) -> None:
         with st.expander(f"{idx}. {chunk.title}"):
             st.write(f"**URL:** {chunk.source_url}")
             st.write(f"**Issue category:** {chunk.issue_category}")
+            st.write(f"**Issue tags:** {', '.join(getattr(chunk, 'issue_tags', [])) or chunk.issue_category}")
             st.write(f"**Methods:** {methods or 'unknown'}")
             st.write(f"**Score:** {item.get('score', 0.0):.3f}")
             st.write(snippet)

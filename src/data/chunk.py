@@ -11,6 +11,7 @@ class TextChunk:
     doc_id: str
     title: str
     issue_category: str
+    issue_tags: list[str]
     source_url: str
     text: str
 
@@ -47,6 +48,7 @@ def chunk_documents(
                     doc_id=doc.doc_id,
                     title=doc.title,
                     issue_category=doc.issue_category,
+                    issue_tags=doc.issue_tags,
                     source_url=doc.source_url,
                     text=chunk,
                 )
