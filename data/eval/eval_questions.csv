@@ -1,0 +1,7 @@
+question_id,question_text,issue_category,county,expected_doc_ids,key_points
+q_001,My landlord changed the locks after I complained about mold in Durham. What can I do?,lockout,Durham,nc_002|nc_005|nc_007,"lockout concerns, repairs or habitability, legal aid referral, document evidence"
+q_002,Can my landlord keep my security deposit for repainting in North Carolina?,security_deposit,statewide,nc_004,"deposit rules, normal wear and tear distinction, request itemized explanation"
+q_003,I got papers for eviction in Wake County and my hearing is soon. What should I do first?,eviction,Wake,nc_001|nc_003|nc_006,"court process, hearing preparation, urgency, legal aid referral"
+q_004,My apartment has mold and my landlord keeps ignoring repair requests. What are my options in North Carolina?,habitability,statewide,nc_002|nc_005,"habitability concerns, document requests, repair rights, legal aid referral"
+q_005,I moved out and my landlord kept my deposit for cleaning and repainting. Is that allowed?,security_deposit,statewide,nc_004,"deposit deductions, normal wear and tear, itemized explanation"
+q_006,My landlord shut off utilities after I was late on rent. What should I do?,utility_shutoff,statewide,nc_009,"essential services concern, urgent help, documentation, legal aid referral"

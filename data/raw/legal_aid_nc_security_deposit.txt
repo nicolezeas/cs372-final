@@ -1,0 +1,62 @@
+Title: NC Security Deposit Guidance
+URL: https://www.hemlane.com/resources/north-carolina-security-deposit-laws/
+Source type: hemlane
+Issue category: security_deposit
+
+Overview
+This file has been cleaned to keep the North Carolina rules that are consistent with the Tenant Security Deposit Act. The statutory text controls over any third-party explanation.
+
+Core rules from the Tenant Security Deposit Act
+Security deposits for residential units must generally be kept in a trust account with a licensed and federally insured depository institution or backed by a qualifying bond.
+Within 30 days after the beginning of the lease term, the landlord or landlord's agent must notify the tenant of the name and address of the bank or institution holding the deposit, or the name of the insurance company providing the bond.
+
+This rule appears in N.C. Gen. Stat. 42-50.
+
+Maximum deposit amount
+Under N.C. Gen. Stat. 42-51(b), the security deposit may not exceed:
+- two weeks' rent for a week-to-week tenancy
+- one and one-half months' rent for a month-to-month tenancy
+- two months' rent for a tenancy longer than month-to-month
+
+Permitted uses of the deposit
+Under N.C. Gen. Stat. 42-51(a), the deposit may be used for:
+- nonpayment of rent
+- certain utility charges allowed by statute
+- damage to the premises
+- damages caused by nonfulfillment of the rental period, subject to statutory limits and exceptions
+- unpaid bills that become a lien against the property due to the tenant's occupancy
+- costs of re-renting after breach by the tenant
+- costs of removal and storage of property after summary ejectment
+- court costs
+- fees allowed by G.S. 42-46
+
+Return of the deposit and accounting
+Under N.C. Gen. Stat. 42-52:
+- within 30 days after termination of the tenancy and delivery of possession, the landlord must either return the balance of the deposit or provide an itemized written statement of deductions and any remaining balance
+- if the final amount cannot be determined within 30 days, the landlord must provide an interim accounting within 30 days and a final accounting within 60 days
+- the landlord may not withhold for normal wear and tear
+- the landlord may not retain more than the landlord's actual damages
+- if the tenant's address is unknown, the landlord must hold any balance for collection for at least six months
+
+Pet fee
+Under N.C. Gen. Stat. 42-53, a landlord may charge a reasonable, nonrefundable fee for pets kept by the tenant on the premises.
+
+Transfer to a new owner
+Under N.C. Gen. Stat. 42-54, if the landlord's interest in the dwelling terminates, the landlord must within 30 days either:
+- transfer the remaining deposit to the successor and notify the tenant of the transfer and the successor's name and address, or
+- return the remaining deposit to the tenant
+
+Tenant remedies
+Under N.C. Gen. Stat. 42-55, a tenant may bring a civil action for an accounting and recovery of the balance of the deposit.
+If the landlord willfully fails to comply with the deposit, bond, or notice requirements, the landlord may lose the right to keep any portion of the deposit otherwise allowed under G.S. 42-51.
+The court may also award damages resulting from noncompliance and, in cases of willful noncompliance, may award attorney's fees as part of costs.
+
+Important cautions
+- The statute does not create a general rule that all delays automatically entitle the tenant to triple damages.
+- The safest retrieval content is the statutory rule itself: 30-day accounting, possible 60-day final accounting, no deductions for normal wear and tear, and only actual damages.
+
+Key takeaways
+- North Carolina limits the size of residential security deposits.
+- Deposits must be held properly and accounted for.
+- Landlords must send an itemized statement and balance within the statutory timeline.
+- Normal wear and tear cannot be charged against the deposit.

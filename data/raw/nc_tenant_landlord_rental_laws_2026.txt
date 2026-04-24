@@ -1,0 +1,90 @@
+Title: North Carolina Tenant-Landlord Rental Laws and Rights for 2026
+URL: https://www.hemlane.com/resources/north-carolina-tenant-landlord-law/
+Source type: hemlane
+Issue category: housing_general
+
+Overview
+This file preserves the useful North Carolina landlord-tenant rules from a third-party guide while removing marketing language, personal anecdotes, and unsupported claims. Where a statute controls, the statute should be treated as more authoritative than this summary.
+
+Security deposits
+North Carolina limits residential security deposits based on tenancy length:
+- two weeks' rent for week-to-week
+- one and one-half months' rent for month-to-month
+- two months' rent for terms longer than month-to-month
+
+These limits come from N.C. Gen. Stat. 42-51(b).
+
+Landlords must generally account for and return the remaining balance of the deposit within the statutory timeline set by N.C. Gen. Stat. 42-52.
+
+Eviction and notice
+For nonpayment under N.C. Gen. Stat. 42-3, the landlord must demand rent and wait 10 days before filing the eviction case.
+
+North Carolina does not allow self-help eviction.
+Landlords generally cannot lawfully remove tenants by:
+- changing locks
+- shutting off utilities
+- removing doors
+- using other pressure tactics instead of court
+
+The court process and writ of possession executed by the sheriff are the lawful path to physical removal.
+
+Repairs and habitability
+North Carolina landlords must provide fit and habitable premises under N.C. Gen. Stat. 42-42.
+The statute requires landlords to:
+- comply with applicable housing and building codes to the extent required
+- make repairs necessary to keep the premises fit and habitable
+- keep common areas safe
+- maintain and promptly repair electrical, plumbing, sanitary, heating, ventilating, air conditioning, and other supplied facilities after written notice from the tenant, except in emergencies
+- address imminently dangerous conditions within a reasonable time based on severity
+
+Examples of imminently dangerous conditions listed by statute include:
+- unsafe wiring
+- unsafe floors or steps
+- unsafe ceilings or roofs
+- lack of potable water
+- lack of operable locks on exterior doors
+- broken windows or missing ground-level window locks
+- lack of heat in required winter conditions
+- lack of an operable toilet
+- lack of an operable bathtub or shower
+
+Repair remedies
+This guide correctly warns that North Carolina is not generally described as a standard repair-and-deduct state.
+Tenants should be cautious about withholding rent and should instead document conditions, give notice, and seek legal advice about possible defenses, rent abatement, or claims.
+
+Periodic tenancy notice
+For periodic tenancies, N.C. Gen. Stat. 42-14 provides minimum notice periods of:
+- 7 days for month-to-month
+- 2 days for week-to-week
+- 1 month or more for year-to-year
+- 60 days for rental of a manufactured home space
+
+These are minimum statutory rules. A lease may require more notice.
+
+Landlord entry
+This third-party guide refers to a "reasonable notice" standard for landlord entry, but the exact rule can depend on the lease and circumstances.
+This source should not be treated as creating a statewide statutory 24-hour notice rule.
+
+Late fees
+North Carolina late fees are governed by statute and lease terms, not just a general reasonableness rule.
+For reliable late-fee analysis, the retriever should prefer sources focused specifically on N.C. Gen. Stat. 42-46.
+
+Practical tenant points
+Tenants should:
+- keep written records of repair requests
+- save payment records
+- document move-in and move-out conditions
+- act quickly if they receive nonpayment or eviction papers
+
+Practical landlord points
+Landlords should:
+- use written leases
+- follow statutory notice and filing timelines
+- avoid self-help eviction
+- keep clear records for deposits, repairs, and communications
+
+Key takeaways
+- North Carolina law is deadline-driven.
+- Deposits, eviction timing, and periodic-tenancy notices are governed by statute.
+- Self-help eviction is generally unlawful.
+- Habitability problems can support defenses or claims, but tenants should document carefully and avoid unsupported self-help remedies.

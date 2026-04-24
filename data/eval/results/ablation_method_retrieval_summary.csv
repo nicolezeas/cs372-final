@@ -1,0 +1,5 @@
+retrieval_mode,use_embeddings,use_heuristics,words_per_chunk,overlap,top_k,precision_at_k,recall_at_k,hit_at_k
+bm25_plus_embeddings,True,False,200,40,5,0.375,0.75,0.8333333333333334
+bm25_plus_embeddings_plus_heuristics,True,True,200,40,5,0.3333333333333333,0.5833333333333334,0.6666666666666666
+bm25_only,False,False,200,40,5,0.27777777777777773,0.4444444444444444,0.5
+bm25_plus_heuristics,False,True,200,40,5,0.27777777777777773,0.4444444444444444,0.5

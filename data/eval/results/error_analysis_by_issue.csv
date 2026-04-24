@@ -1,0 +1,10 @@
+issue_category,failure_type,count
+eviction,partial_retrieval,2
+eviction,none,1
+habitability,partial_retrieval,2
+habitability,missed_relevant_source,1
+lockout,missed_relevant_source,2
+lockout,partial_retrieval,1
+security_deposit,none,4
+security_deposit,missed_relevant_source,2
+utility_shutoff,none,3

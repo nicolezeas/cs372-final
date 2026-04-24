@@ -1,0 +1,9 @@
+retrieval_mode,failure_type,count
+bm25,missed_relevant_source,3
+bm25,none,2
+bm25,partial_retrieval,1
+embedding,none,3
+embedding,partial_retrieval,3
+hybrid,none,3
+hybrid,missed_relevant_source,2
+hybrid,partial_retrieval,1

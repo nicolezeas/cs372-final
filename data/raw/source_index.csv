@@ -1,0 +1,13 @@
+doc_id,title,source_url,source_type,jurisdiction,county,issue_category,file_name
+nc_001,NC Courts Landlord Tenant Issues,https://www.nccourts.gov/help-topics/housing/landlordtenant-issues,court,NC,statewide,eviction,nc_courts_landlord_tenant_issues.txt
+nc_002,Legal Aid NC Housing Overview,https://legalaidnc.org/topic/housing/,legal_aid,NC,statewide,housing_general,legal_aid_nc_housing_overview.txt
+nc_003,NC Courts Small Claims Landlord Tenant,https://www.nccourts.gov/help-topics/lawsuits-and-small-claims/small-claims,court,NC,statewide,eviction,nc_courts_small_claims_landlord_tenant.txt
+nc_004,NC Security Deposit Guidance,https://www.hemlane.com/resources/north-carolina-security-deposit-laws/,hemlane,NC,statewide,security_deposit,legal_aid_nc_security_deposit.txt
+nc_005,NC Repairs and Habitability Guidance,https://legalaidnc.org/clinic/tenant-rights-clinic/,legal_aid,NC,statewide,habitability,legal_aid_nc_repairs_habitability.txt
+nc_006,NC Eviction Help Resource,https://legalaidnc.org/resource/eviction-defense-manual/,legal_aid,NC,statewide,eviction,legal_aid_nc_eviction_help.txt
+nc_007,NC Lockout or Tenant Rights Resource,https://www.northcarolinalegalservices.org/article/your-landlord-cannot-evict-you-without-a-court-order-heres-what-to-do-when-they-try,nc_legal,NC,statewide,lockout,legal_aid_nc_lockout_rights.txt
+nc_008,NC Lease Termination or Moving Out Resource,https://www.turbotenant.com/rental-lease-agreement/north-carolina/laws/breaking-a-lease/,turbo_tenant,NC,statewide,lease_termination,legal_aid_nc_lease_termination.txt
+nc_009,NC Utility Shutoff or Essential Services Resource,https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-42.1.html,nc_general_statute,NC,statewide,utility_shutoff,legal_aid_nc_utility_shutoff.txt
+nc_010,NC County Housing Court Help Resource,https://www.nccourts.gov/locations/durham-county/durham-county-small-claims,court,NC,Durham,eviction,nc_county_housing_court_help.txt
+nc_011,North Carolina Tenant-Landlord Rental Laws and Rights for 2026,https://www.hemlane.com/resources/north-carolina-tenant-landlord-law/,legal_guide,NC,statewide,housing_general,nc_tenant_landlord_rental_laws_2026.txt
+nc_012,North Carolina General Statutes Chapter 42 Landlord and Tenant,https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter42,statute,NC,statewide,landlord_tenant_statute,nc_chapter_42_landlord_tenant.txt

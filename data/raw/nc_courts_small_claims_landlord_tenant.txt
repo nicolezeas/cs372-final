@@ -1,0 +1,117 @@
+Title: NC Courts Small Claims Landlord Tenant
+URL: https://www.nccourts.gov/help-topics/lawsuits-and-small-claims/small-claims
+Source type: court
+Issue category: eviction
+
+What is small claims court?
+Small claims court is part of the district court division of the North Carolina state court system. Magistrates decide cases in small claims court. The maximum amount of money that can be requested in a small claims case varies by county, from $5,000 to $10,000.
+
+What is a magistrate?
+A magistrate is an appointed officer of the district court. Some of their statutory duties include deciding cases in civil small claims court, deciding preliminary matters in criminal cases, and performing marriages. Magistrates may or may not be attorneys.
+
+Who are the “plaintiff” and “defendant”?
+A plaintiff is a person or organization that files a court case. A defendant is a person or organization against whom a court case is filed.
+
+Filing a Case
+What types of cases are filed in small claims court?
+Small claims court handles the following types of cases:
+
+Summary ejectment (also known as eviction cases, see the Landlord and Tenant Help Topic for more information).
+Cases where the plaintiff seeks the return of specific personal property, such as a vehicle, where the fair market value of the property does not exceed $10,000.
+Actions for enforcement of motor vehicle mechanic and storage liens under G.S. 44A-2(d) and motor vehicle liens arising under G.S. 20-77(d).
+Cases where the amount of money sought in the complaint does not exceed $10,000. The dollar limit varies from $5,000 to $10,000 depending on local rules. You can contact the clerk of court in your county to find out your local small claims court limit. If you are requesting more than the limit, up to $25,000, your case must be filed in district court. If you are requesting more than $25,000, your case must be filed in superior court.
+Am I required to file my case in small claims court?
+No. Cases that are eligible for small claims court may also be heard in district court. However, the small claims court process is usually faster and is easier to manage for people without an attorney, because there are fewer procedural requirements.
+
+What county should I file my case in?
+Small claims cases, unlike district and superior court cases, must be filed in the county where at least one of the defendants resides.
+
+How do I file a case in small claims court?
+Guide & File is available to help users prepare court documents online to file for Small Claims: Money Owed, Repossession of Personal Property.
+
+A small claims case is filed in the clerk of superior court’s office in the appropriate county. The forms may be printed and completed in advance, or the clerk of superior court can provide you with the forms. You will need to provide the following:
+
+Three copies of the complaint, stating the claim(s) and what relief is requested from the magistrate.
+If the claim is for money, this form can be used for your complaint.
+If the complaint is to recover personal property, this form can be used.
+If the complaint is for summary ejectment (eviction), this form can be used.
+Specific forms also exist for
+Expedited summary ejectment related to a vacation rental agreement
+Enforcement of a possessory lien on a motor vehicle
+Recovery of a motor vehicle held for lien and to determine the amount of lien
+Recover motor vehicle to enforce possessory lien and to establish amount of lien
+Three copies of the Magistrate Summons. Only the top portion of the first page should be filled out, including the names and addresses of all parties.
+An affidavit pursuant to the Servicemembers Civil Relief Act (SCRA), telling the court whether or not the defendant is in the military. This is intended to protect the legal rights of active-duty service members. You can search military records to find a person’s status here.
+A filing fee of $96. If you are unable to afford the fee, you can ask to file your case as an indigent by using this form.
+NOTE: Local requirements may vary. Please check with your local clerk’s office to find out what forms and quantity of each are required in that county.
+
+How do I serve the defendant with the case?
+Once the case is filed, the plaintiff is responsible for serving the defendant with a copy of the summons and complaint, generally either by having the sheriff serve the defendant for a fee of $30, or by mailing a copy to the defendant via certified mail, return receipt requested.
+
+Can the defendant be ordered to pay the court costs?
+Yes, if the plaintiff is successful, the magistrate may order the defendant to pay the plaintiff’s court costs. Unsuccessful plaintiffs are generally held responsible for their own court costs.
+
+The Court Process
+I was served with a complaint in small claims court. What do I do?
+A party must appear in court at the appointed day and time if he or she wants to be heard by the magistrate. In small claims court, a defendant may file a written answer to the plaintiff’s complaint but is not required to do so. A defendant may also file a counterclaim to raise a legal claim against the plaintiff. An answer can be served on the other party by regular mail, but generally a counterclaim must be served by sheriff or certified mail.
+
+When will my court date be?
+Court dates are scheduled within 30 days of the day the plaintiff files the case, and usually within 10 to 15 days for eviction cases. The clerk of superior court will schedule a court date when the plaintiff files the case and will write it on the magistrate summons form, which is served on the defendant.
+
+What happens if a party doesn’t appear in small claims court?
+If a plaintiff does not appear, the case will usually be dismissed. Under some circumstances, it may be “continued,” or rescheduled.
+If a defendant has not been properly served with the summons and complaint and does not appear, the case must be continued for the defendant to be served.
+If the defendant has been properly served but does not appear, the magistrate can decide the case without the defendant being present in court.
+Can I get a continuance?
+If the defendant is served with a small claims case fewer than 5 days before the court date (or fewer than 2 days before the court date in eviction cases), the magistrate must allow a continuance, which means rescheduling the court date. Otherwise, the magistrate decides whether to allow a continuance if a party requests it. If the other party does not consent, the party requesting a continuance must show good cause.
+
+What if I want to dismiss my case?
+If the plaintiff and defendant reach a settlement or for any reason the plaintiff chooses not to proceed with the case, the plaintiff can file a voluntary dismissal using this form, so long as there are no pending compulsory counterclaims.  The plaintiff may file the dismissal form prior to the court hearing or in court. If a dismissal is filed in advance, the parties are not expected to appear at the court hearing.
+
+Are there trials in small claims court?
+Yes, but the trials are usually quick and are decided by a magistrate. There are no jury trials in small claims court. Small claims court may be held either in a courtroom or in the magistrate’s office. The plaintiff presents his or her case first and may testify, call witnesses, or present other evidence such as documents or recordings. The defendant may question the plaintiff’s witnesses after they testify. Once the plaintiff has finished his or her case, the defendant may also testify, call witnesses, and present evidence, and the plaintiff may question the defendant’s witnesses. The magistrate may ask questions of the parties and witnesses and may announce his or her decision immediately after both parties have presented their cases.
+
+Do I need to hire an attorney for small claims court?
+Many people represent themselves in small claims court, and the process is designed to be accessible to people without an attorney. However, court personnel such as magistrates and clerks of court cannot give you legal advice about your case, and if you choose to represent yourself, you will be held to the same rules of procedure and evidence as a licensed attorney.
+
+I am not an attorney. Can I represent my business in small claims court?
+Yes, a business can be represented by a non-attorney authorized agent, such as an owner or employee, in small claims court.
+
+Where can I find resources to help me prepare for small claims court?
+Legal Aid of North Carolina provides a guide to small claims court in English and Spanish. This guide includes information about filling out forms for small claims court.
+
+Guide & File is available to help users prepare court documents online to file for Small Claims: Money Owed, Repossession of Personal Property.
+
+Appeals
+What can I do if I disagree with the outcome in my case in small claims court?
+Either party can appeal the decision of the magistrate to district court for a new trial before a judge or a jury. Notice of appeal may either be given orally by telling the magistrate in court when the magistrate makes a decision, or by filing a written notice of appeal with the clerk of superior court within 10 days after the magistrate’s decision. A notice of appeal form can be found here. A copy of the Notice of Appeal must be served on the other party. The party giving notice of appeal must timely pay the court costs for the appeal. Failure to pay the court costs will result in a dismissal of the appeal. If a party is unable to pay the court costs for appeal, the party may file a petition using this form to appeal as an indigent. An appealing party may also be required to post a bond to stop enforcement of the magistrate’s decision while the case is on appeal. See the Landlord and Tenant Help Topic for more information about appealing eviction cases.
+
+What happens when the case goes to district court?
+A court date will typically be scheduled and sent to both parties in the mail. Parties should inform both the clerk of superior court and trial court coordinator of any address change while the case is pending. The new trial will be before a judge, unless a party timely demands a jury trial in writing within 10 days. Cases dealing with money may be scheduled for arbitration. See the Arbitration and Mediation Help Topic for more information about this process.
+
+Both parties also have the opportunity to file motions and to send each other discovery in district court if they choose to. Because the legal procedures in district court are more complex, a party may benefit from hiring an attorney for district court even if the party was not represented in small claims court. See the Lawsuits Help Topic for more information about the civil court process.
+
+Judgments and Collections
+What is a judgment?
+A judgment is a court’s decision about the parties’ rights and obligations in a case, including the amount of money one party must pay the other, or which party is entitled to property.
+
+After obtaining a money judgment, how is the judgment paid by the other party?
+Many people reach an agreement about the terms of payment after the court decides how much money one party must pay the other. If there is no agreement, the winning party can begin the collections process. The clerk of superior court will record the judgment, and interest will begin to accrue if it is not paid.
+
+The prevailing party must wait for the 10-day period to appeal to district court to pass before beginning the formal collections process for a small claims judgment. If notice of appeal is not filed, the judgment is final. The prevailing party can ask the clerk of superior court to issue a writ of execution, subject to a party’s statutory right to claim certain property as exempt.
+A party who has a judgment against him or her may have a right to keep certain property from being taken to satisfy the judgment. A prevailing party may be required to serve a Notice of Right to Have Exemptions Designated that is issued by the clerk of superior court, along with a Motion to Claim Exempt Property, on the other party. This allows the individual to protect certain basic property from being seized and sold to pay the judgment. The other party has 20 days after he or she is served with the notice and motion to file the motion to claim exempt property with the court or request a hearing before the clerk of superior court. An attorney can assist a party in filling out the motion to claim exempt property. See the Find an Attorney Help Topic for a list of organizations that provide free legal services to people who are unable to afford an attorney.
+Guide & File is available to help users prepare court documents online to file for Motion to Claim Exempt Property.
+If a party entitled to claim property as exempt fails to file a motion claiming property as exempt or has property worth more than the exemption limits, the prevailing party may request that the clerk of superior court issue a writ of execution, which allows the sheriff to collect and sell the other party’s nonexempt property to pay the judgment.
+If a prevailing party objects in writing to certain property claimed as exempt in the motion, a district court judge will conduct a hearing to determine what property is exempt. Once a writ of execution is issued by the clerk of superior court, the sheriff will visit the person’s property to determine whether he or she owns property that can be collected to satisfy the judgment.
+If a party entitled under state law to claim certain property as exempt fails to file a motion to claim exempt property, the right to claim property as exempt under state law is waived and the local sheriff can seize and sell the other party’s property to pay the judgment. Constitutional exemptions may still be claimed using this form. However, constitutional exemptions only allow $1000 in real property (such as land or homes) and $500 in personal property (such as vehicles, furniture, appliances, and other items) to be protected.
+What if the sheriff cannot locate property to satisfy the judgment?
+Judgments are valid for 10 years and can be renewed once. A prevailing party can send a new notice of rights and motion to claim exempt property to the other party in the future.
+
+How should judgments be paid?
+The person required to pay a money judgment can make full or partial payments to the clerk of superior court to ensure that the court has a record of payments. Paying the other party is also an option. A party who receives partial or full payment directly from the other party is required to notify the clerk of any payments received and can file a Certificate of Payment with the court as proof the payment was received.
+
+Can I be arrested for not paying a judgment?
+A party will not be arrested for failing to pay a judgment ordered in small claims court.
+
+Will my wages or public benefits be garnished to pay a judgment?
+No, North Carolina does not allow a winning party to garnish the other party’s wages or public benefits, except in child support cases.

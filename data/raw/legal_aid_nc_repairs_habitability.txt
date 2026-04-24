@@ -1,0 +1,62 @@
+Title: NC Repairs and Habitability Guidance
+URL: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_42/Article_5.html
+Source type: nc_general_statute
+Issue category: habitability
+
+Overview
+This file summarizes the most relevant North Carolina landlord repair and habitability rules from Chapter 42, Article 5. It is intended to keep retrieval focused on the core tenant-protection rules rather than long statutory text.
+
+Landlord duty to provide fit premises
+Under N.C. Gen. Stat. 42-42(a), a landlord must:
+- comply with current applicable building and housing codes to the extent required
+- make repairs and do what is necessary to put and keep the premises in a fit and habitable condition
+- keep common areas safe
+- maintain in good and safe working order and promptly repair electrical, plumbing, sanitary, heating, ventilating, air conditioning, and other supplied facilities and appliances after written notice from the tenant, except in emergency situations
+
+Imminently dangerous conditions
+Under N.C. Gen. Stat. 42-42(a)(8), the landlord must repair or remedy an imminently dangerous condition within a reasonable period of time based on the severity of the condition after receiving notice or actual knowledge.
+
+Examples listed in the statute include:
+- unsafe wiring
+- unsafe floors or steps
+- unsafe ceilings or roofs
+- unsafe chimneys or flues
+- lack of potable water
+- lack of operable locks on exterior doors
+- broken windows or lack of operable locks on ground-level windows
+- lack of heat meeting the statutory winter standard
+- lack of an operable toilet
+- lack of an operable bathtub or shower
+- rat infestation caused by structural defects
+- excessive standing water, sewage, or flooding caused by plumbing leaks or inadequate drainage contributing to mosquito infestation or mold
+
+Written notice
+The statute specifically refers to written notice for many repair obligations.
+Written notice can be important evidence.
+Texts, emails, letters, and maintenance requests can all help show when the landlord was informed.
+
+Tenant protections
+Under N.C. Gen. Stat. 42-42(b), the landlord is not excused from repair obligations just because the tenant accepted the premises in bad condition.
+
+Tenant duties
+Under N.C. Gen. Stat. 42-43, tenants must generally keep the premises reasonably clean and safe, avoid deliberate or negligent damage, and comply with applicable tenant obligations.
+
+Utility shutoff rule tied to habitability
+Under N.C. Gen. Stat. 42-42.1, a landlord may not disconnect electric, water, sewer, or natural gas service, or terminate access to a central system's benefits, due to nonpayment of those utility charges.
+
+Domestic violence lock-change protection
+Article 5 also includes special lock-change protections for protected tenants who are victims of domestic violence, sexual assault, or stalking under N.C. Gen. Stat. 42-42.3.
+That rule is separate from the general rule against unlawful lockouts.
+
+Why this source matters in eviction or repairs disputes
+This statute is often relevant when a tenant says:
+- the landlord ignored serious repair problems
+- the home was not fit or habitable
+- the landlord failed to repair dangerous conditions
+- the landlord used utility shutoff or other pressure tactics
+
+Key takeaways
+- North Carolina landlords generally must keep rental housing fit and habitable.
+- Serious dangerous conditions must be addressed within a reasonable time.
+- Written notice matters.
+- Repair failures can support defenses, claims, or requests for rent abatement depending on the case.

@@ -1,0 +1,168 @@
+Title: NC Eviction Help Resource
+URL: https://legalaidnc.org/resource/eviction-defense-manual/
+Source type: legal_aid
+Issue category: eviction
+
+Overview
+This resource is based on Legal Aid of North Carolina's eviction defense manual. It is designed to help North Carolina tenants understand the eviction process, common defenses, appeal rights, and related court procedures. It is general information, not legal advice for a specific case.
+
+Legal Aid NC says tenants who want advice or representation may call 1-866-219-5262. Legal services are free for qualifying tenants.
+
+Section 1: The only legal way to evict a tenant
+In North Carolina, eviction is called "summary ejectment."
+A landlord must file a court case, obtain a court order, and have the sheriff carry out the lockout.
+Self-help eviction is illegal. A landlord cannot legally force a tenant out by:
+- changing locks without a court order
+- cutting off water or power
+- removing doors
+- putting belongings outside
+- using other pressure tactics to force the tenant to leave
+
+Under N.C. Gen. Stat. 42-25.6, a landlord generally must use the court process rather than self-help.
+
+If a landlord locks a tenant out without a court order, the tenant may have claims for damages and may be able to seek emergency court relief.
+
+Section 2: Where eviction cases are heard
+Most eviction cases begin in small claims court.
+The decision-maker is usually a magistrate, not a jury.
+Tenants may bring a lawyer, but the court does not appoint one in ordinary eviction cases.
+Eviction is a civil process, not a criminal case. A tenant is not arrested for missing court, but the landlord can still win by default if the tenant does not appear.
+
+Section 3: Court paperwork and service
+The case begins when the landlord files a Complaint in Summary Ejectment.
+The landlord is the plaintiff. The tenant is the defendant.
+The complaint should state the legal basis for eviction.
+
+The four common grounds listed in the complaint form are:
+1. Nonpayment of rent for an oral lease or a written lease without a forfeiture clause.
+2. Holdover after the lease term ends.
+3. Breach of lease where a written lease allows termination or re-entry.
+4. Criminal activity under the applicable statute.
+
+The complaint is served with a summons telling the tenant the hearing date, time, and location.
+Service is usually done by the sheriff.
+If no adult answers the door, the sheriff may post the papers and send a copy by regular mail.
+
+Under N.C. Gen. Stat. 42-29, the tenant should generally be served at least two days before the hearing.
+
+Section 4: Timeline and lockout
+Eviction hearings often happen very quickly, sometimes within about a week after filing.
+If the landlord wins and the tenant does not appeal or does not post any required bond, the landlord can request a writ of possession.
+A writ of possession authorizes the sheriff to remove the tenant so the landlord can change the locks.
+
+The sheriff should give notice of the lockout date before removal.
+When the sheriff arrives, the tenant may only get a short time to leave.
+
+After lockout, the tenant usually has time to retrieve belongings:
+- 7 days if the property is worth more than $500
+- 5 days if the property is worth $500 or less
+
+The landlord should allow access during regular business hours, usually between 9 AM and 5 PM, and cannot charge the tenant for access during that post-lockout retrieval period.
+
+Relevant statutes include N.C. Gen. Stat. 42-36.2 and 42-29.5(h).
+
+Section 5: Appeals
+If a tenant loses in small claims court or misses court, the tenant may appeal and receive a new trial in district court.
+The usual appeal deadline is 10 calendar days after judgment.
+If the last day falls on a weekend or holiday, the deadline moves to the next business day.
+If the magistrate mails the judgment later instead of announcing it in court, the tenant may have 13 days from filing of the judgment to appeal.
+
+The appeal filing fee is usually $150, but tenants may seek a fee waiver by filing a Petition to Proceed as Indigent.
+
+Three important appeal forms are:
+1. Notice of Appeal
+2. Bond to Stay Execution
+3. Petition to Proceed as Indigent
+
+To remain in the home while the appeal is pending, the tenant usually must both file the proper paperwork and comply with bond requirements.
+
+Section 6: Rent bonds during appeal
+To stay in the home during an appeal, a tenant may have to pay:
+1. Monthly rent as it comes due during the appeal
+2. In nonpayment cases, a prorated amount from judgment to the end of the month
+3. Undisputed back rent, unless waived because the tenant is indigent
+
+For subsidized housing, the tenant's bond is usually based on the tenant's share of rent, not the total subsidized amount.
+
+If the rent bond is set incorrectly, the tenant may file a Motion to Modify the Rent Bond under N.C. Gen. Stat. 42-34(b).
+
+If the tenant misses a bond payment, the landlord may be able to proceed with the lockout before the appeal is heard.
+Even then, the appeal itself may continue, and a tenant who later wins on appeal may obtain relief including reentry or damages in some situations.
+
+Section 7: The four main eviction claims
+Nonpayment for oral leases or written leases without a forfeiture clause:
+- Based on N.C. Gen. Stat. 42-3
+- The landlord must demand rent and wait 10 days before filing
+- In this type of case, tendering all past-due rent and court costs before final judgment can require dismissal under N.C. Gen. Stat. 42-33
+
+Holdover:
+- Applies when the lease term ended and the tenant stayed
+- Periodic tenancies require notice under N.C. Gen. Stat. 42-14
+- Minimum notice periods are generally 30 days for year-to-year, 7 days for month-to-month, 2 days for week-to-week, and 60 days for rental of a manufactured home lot
+- The notice must end at the end of the rental period
+- The landlord must also demand surrender of possession before filing
+
+Breach of lease:
+- Usually requires a written lease with a forfeiture clause
+- The landlord must prove the rule exists in the lease, the tenant broke it, and the landlord demanded surrender of possession before filing
+
+Criminal activity:
+- Limited to specified conduct covered by statute
+- These cases can raise serious issues because statements made in eviction court may affect related criminal matters
+- In some circumstances the court may order only a partial eviction or a conditional eviction rather than removing the entire household
+
+Section 8: Common defenses
+The manual describes many defenses that may apply depending on the case, including:
+- waiver by accepting rent after learning of a lease violation
+- insufficient notice
+- failure to demand surrender of possession
+- novation, where a new lease replaces the old situation
+- right to repairs and rent abatement under N.C. Gen. Stat. 42-42
+- retaliatory eviction under N.C. Gen. Stat. 42-37.1
+- unfair and deceptive trade practices
+- unfair debt collection practices for illegal fees
+- suit filed in the wrong plaintiff's name
+- protections for victims of domestic violence
+- fair housing and reasonable accommodation defenses
+
+Section 9: Repairs and rent abatement
+The landlord must keep the premises fit and habitable.
+Examples of repair issues include leaks, unsafe wiring, broken locks, pest infestations, plumbing failures, and lack of heat.
+
+To prove a repair-based defense or counterclaim, a tenant generally needs evidence of:
+1. the bad condition
+2. notice to the landlord
+3. failure to repair within a reasonable time
+4. harm to the tenant's use and enjoyment
+5. damages
+
+Useful evidence may include:
+- photographs
+- texts or emails
+- inspection reports
+- witnesses
+- receipts for out-of-pocket costs
+
+Section 10: Counterclaims
+Tenants can usually raise defenses verbally at trial, but counterclaims generally must be filed in writing before court if the tenant wants the court to award money against the landlord.
+
+Common counterclaims include:
+- breach of the implied warranty of habitability
+- unfair and deceptive acts or practices
+- unfair debt collection practices
+
+An Answer and Counterclaim should:
+- respond to the complaint's allegations
+- state defenses
+- state the tenant's claims against the landlord
+- be signed, filed, and served on the landlord
+
+There is usually a filing fee for counterclaims, but qualifying tenants may seek waiver through a Petition to Proceed as Indigent.
+
+Key takeaways
+- A landlord generally cannot evict a tenant without going through court.
+- Tenants should read the complaint carefully to identify the legal basis claimed.
+- Missing court does not automatically end the case; appeal rights may still exist.
+- Lockouts, utility shutoffs, and similar self-help tactics are generally illegal.
+- Evidence matters: tenants should save documents, messages, receipts, and photos.
+- Counterclaims usually must be filed before court if the tenant wants affirmative relief.

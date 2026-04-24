@@ -1,0 +1,79 @@
+Title: NC Lease Termination or Moving Out Resource
+URL: https://www.turbotenant.com/rental-lease-agreement/north-carolina/laws/breaking-a-lease/
+Source type: turbo_tenant
+Issue category: lease_termination
+
+Overview
+This resource discusses early lease termination and moving out in North Carolina. It is a third-party guide, so statutory rules and the lease itself should control if there is any conflict.
+
+General rule
+Breaking a lease early can create financial consequences.
+Tenants and landlords should review the written lease first, especially any early termination or renewal clauses.
+
+Periodic tenancies
+North Carolina law sets minimum notice periods for certain periodic tenancies:
+- month-to-month: 7 days' notice
+- week-to-week: 2 days' notice
+- year-to-year: 1 month or more before the end of the current year
+- rental of a manufactured home space: 60 days before the end of the current rental period
+
+These rules come from N.C. Gen. Stat. 42-14.
+If the lease requires more notice than the statutory minimum, the lease may control.
+
+Fixed-term leases
+A fixed-term lease usually ends on its stated end date.
+Many leases require advance notice if the tenant will not renew.
+Some leases automatically renew or convert to month-to-month if proper notice is not given.
+
+Legal grounds for early termination without the usual penalty
+Military termination
+North Carolina law gives certain military tenants a right to terminate early in qualifying situations.
+Under N.C. Gen. Stat. 42-45, qualifying tenants may terminate after giving written notice and the required military documentation.
+The exact effective date and available damages rules depend on the subsection that applies.
+
+Domestic violence, sexual assault, or stalking
+Under N.C. Gen. Stat. 42-45.1, a protected tenant may terminate early by giving written notice that is at least 30 days after the landlord receives it, together with required documentation.
+Depending on the situation, documentation may include:
+- a qualifying protective or criminal order
+- an Address Confidentiality Program card
+- for domestic violence or sexual assault, a qualifying safety plan dated during the tenancy
+
+Foreclosure
+Under N.C. Gen. Stat. 42-45.2, a tenant in certain residential property with fewer than 15 rental units that is being sold in foreclosure may terminate the lease after receiving the required foreclosure notice, if the tenant gives written notice effective at least 10 days and no more than 90 days after the sale date in the notice.
+
+Situations that are often not automatic legal justifications
+The guide notes that moving for school, job relocation, or family medical reasons is not automatically a statutory right to break the lease without consequences.
+Whether a tenant owes money after moving early often depends on:
+- the lease terms
+- whether a statutory termination right applies
+- whether the landlord re-rents the property
+- whether the landlord claims damages allowed by law
+
+Practical options short of litigation
+Possible ways parties sometimes resolve an early move-out include:
+- negotiation
+- lease takeover or assignment, if allowed
+- subletting, if allowed
+- a written settlement about fees and move-out date
+
+Possible consequences of breaking a lease without a legal justification
+Depending on the lease and facts, a tenant may face claims for:
+- unpaid rent
+- fees allowed by the lease
+- damages tied to breach of the rental period
+- deductions from the security deposit if permitted by law
+- court action
+
+Important caution
+This source is not itself the law.
+For North Carolina-specific rules, the following official statutes are especially relevant:
+- N.C. Gen. Stat. 42-14 for notice periods in periodic tenancies
+- N.C. Gen. Stat. 42-45 for qualifying military termination
+- N.C. Gen. Stat. 42-45.1 for domestic violence, sexual assault, or stalking
+- N.C. Gen. Stat. 42-45.2 for certain foreclosed properties
+
+Key takeaways
+- Read the lease first.
+- Periodic tenancies have notice rules set by statute, but the lease may require more notice.
+- Some tenants have special statutory rights to terminate early.
+- If there is no statutory right or agreement, early move-out may still create liability.

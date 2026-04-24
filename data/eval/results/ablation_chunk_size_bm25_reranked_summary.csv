@@ -1,0 +1,4 @@
+retrieval_mode,words_per_chunk,overlap,top_k,precision_at_k,recall_at_k,hit_at_k
+bm25_reranked,150,40,5,0.27777777777777773,0.4444444444444444,0.5
+bm25_reranked,200,40,5,0.27777777777777773,0.4444444444444444,0.5
+bm25_reranked,250,40,5,0.25,0.4444444444444444,0.5

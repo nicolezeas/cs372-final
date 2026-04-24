@@ -1,0 +1,35 @@
+Title: NC Utility Shutoff or Essential Services Resource
+URL: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-42.1.html
+Source type: nc_general_statute
+Issue category: utility_shutoff
+
+Overview
+North Carolina law restricts a landlord's ability to shut off utility services to force payment or make a tenant leave.
+
+Rule on landlord-billed utility services
+Under N.C. Gen. Stat. 42-42.1, a lessor may charge for certain utility services under a written rental agreement, including:
+- water or sewer service
+- electric service
+- natural gas service
+- electricity or natural gas used by a central system
+
+However, under subsection (b), the lessor may not disconnect or terminate the lessee's:
+- electric service
+- water or sewer service
+- natural gas service
+- receipt of the benefits of the use of a central system
+
+The landlord may not do this because of the tenant's nonpayment of the amount due for those utility services.
+
+Related tenant-protection principle
+North Carolina courts and court guidance also treat utility shutoff as an example of unlawful self-help eviction.
+Landlords generally cannot force tenants out by turning off utilities instead of going through court.
+
+Practical implication
+If a landlord is billing a tenant for covered utility services, the landlord's remedy for nonpayment is not to shut the service off.
+The landlord must use lawful collection or eviction procedures instead of self-help.
+
+Key takeaways
+- A landlord may bill for certain utilities if the written rental agreement allows it.
+- A landlord generally may not shut off those services because the tenant did not pay the utility charges.
+- Utility shutoff used to force a tenant out is also a strong indicator of unlawful self-help eviction.
