@@ -67,15 +67,20 @@ The main controlled retrieval comparison is saved in:
 
 Current summary:
 
-- `embedding`: precision@5 = 0.431, recall@5 = 0.750, hit@5 = 1.000
-- `hybrid`: precision@5 = 0.333, recall@5 = 0.583, hit@5 = 0.667
-- `bm25`: precision@5 = 0.278, recall@5 = 0.444, hit@5 = 0.500
+- `embedding`: precision@5 = 0.399, recall@5 = 0.753, hit@5 = 0.920
+- `hybrid`: precision@5 = 0.403, recall@5 = 0.847, hit@5 = 0.920
+- `bm25`: precision@5 = 0.291, recall@5 = 0.420, hit@5 = 0.520
+
+Additional top-result comparison:
+
+- `embedding`: precision@3 = 0.437, recall@3 = 0.650, hit@3 = 0.860
+- `hybrid`: precision@3 = 0.477, recall@3 = 0.710, hit@3 = 0.900
+- `bm25`: precision@3 = 0.333, recall@3 = 0.400, hit@3 = 0.520
 
 The project also includes:
 
-- hyperparameter ablations for chunk size and top-k retrieval
 - methodological ablations over embeddings on/off and heuristics on/off
-- guardrail evaluation on safe vs unsafe examples
+- guardrail comparison of unsafe-request blocking, disclaimer inclusion, and insufficient-support fallback with vs without guardrails
 - written and visual error analysis
 
 Important evaluation artifacts:

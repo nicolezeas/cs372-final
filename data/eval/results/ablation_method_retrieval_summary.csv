@@ -1,5 +1,5 @@
 retrieval_mode,use_embeddings,use_heuristics,words_per_chunk,overlap,top_k,precision_at_k,recall_at_k,hit_at_k
-bm25_plus_embeddings,True,False,200,40,5,0.40277777777777773,0.8055555555555555,1.0
-bm25_plus_embeddings_plus_heuristics,True,True,200,40,5,0.4305555555555555,0.861111111111111,1.0
-bm25_only,False,False,200,40,5,0.3333333333333333,0.6666666666666666,0.8333333333333334
-bm25_plus_heuristics,False,True,200,40,5,0.3194444444444444,0.6666666666666666,0.8333333333333334
+bm25_plus_embeddings,True,False,200,40,5,0.381,0.8233333333333333,0.94
+bm25_plus_embeddings_plus_heuristics,True,True,200,40,5,0.40333333333333327,0.8466666666666667,0.92
+bm25_only,False,False,200,40,5,0.314,0.5666666666666667,0.72
+bm25_plus_heuristics,False,True,200,40,5,0.32666666666666666,0.5733333333333334,0.72

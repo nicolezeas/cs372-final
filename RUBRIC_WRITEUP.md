@@ -81,11 +81,15 @@ Evidence:
 Two techniques:
 
 - unsafe-request pattern detection
-- low-support fallback when grounded evidence is missing
+- prompt-level legal-information and disclaimer constraints
 
 Impact evidence:
 
-- `guardrail_eval_summary.csv` shows `1.0` accuracy on both safe and unsafe examples in the current controlled test set.
+- `guardrail_eval_summary.csv` shows a with-vs-without comparison across three guardrail behaviors:
+  - unsafe-request blocking
+  - disclaimer inclusion
+  - insufficient-support fallback
+- the current controlled test set shows `1.0` accuracy for all three behaviors with guardrails enabled and `0.0` without guardrails.
 
 ### Performed error analysis with visualization and discussion of failure cases
 
@@ -118,29 +122,24 @@ Approaches compared under the same eval set:
 
 Saved summary:
 
-- `embedding`: precision@5 `0.431`, recall@5 `0.750`, hit@5 `1.000`
-- `hybrid`: precision@5 `0.333`, recall@5 `0.583`, hit@5 `0.667`
-- `bm25`: precision@5 `0.278`, recall@5 `0.444`, hit@5 `0.500`
+- `embedding`: precision@5 `0.399`, recall@5 `0.753`, hit@5 `0.920`
+- `hybrid`: precision@5 `0.403`, recall@5 `0.847`, hit@5 `0.920`
+- `bm25`: precision@5 `0.291`, recall@5 `0.420`, hit@5 `0.520`
 
 ### Conducted ablation study varying at least two design choices
 
 Evidence:
 
 - `src/evaluation/run_ablation.py`
-- `data/eval/results/ablation_chunk_size_bm25_reranked_summary.csv`
-- `data/eval/results/ablation_top_k_bm25_reranked_summary.csv`
 - `data/eval/results/ablation_method_retrieval_summary.csv`
 
 Design choices varied:
 
-- chunk size
-- retrieval top_k
 - embeddings enabled vs disabled
 - reranking heuristics enabled vs disabled
 
 Why this counts:
 
-- The project includes both hyperparameter ablations and methodological ablations.
 - The methodological ablation isolates two independent retrieval-design choices: whether semantic embeddings are used and whether domain-specific reranking heuristics are used.
 - Results are saved in a summary table and figure for controlled comparison across the four retrieval variants.
 
@@ -185,8 +184,7 @@ Evidence:
 
 - Quantitative:
   - `data/eval/results/compare_bm25_embedding_hybrid_summary.csv`
-  - `data/eval/results/ablation_chunk_size_bm25_reranked_summary.csv`
-  - `data/eval/results/ablation_top_k_bm25_reranked_summary.csv`
+- `data/eval/results/ablation_method_retrieval_summary.csv`
   - `data/eval/results/guardrail_eval_summary.csv`
 - Qualitative:
   - `data/eval/results/qualitative_eval_notes.md`

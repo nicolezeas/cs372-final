@@ -1,136 +1,54 @@
-# Error Analysis Summary
+# Error Analysis of Failure Cases Discussion
 
-This summary is based on the controlled retrieval comparison saved in:
+This analysis is based on error_analysis_by_mode.png and error_analysis_by_issue.png. The goal of this section is to describe the failure cases and explain why retrieval fails when it does and what kinds of questions are the hardest inputs for the model.
 
-- `compare_bm25_vs_reranked_detail.csv`
-- `compare_bm25_vs_reranked_failures.csv`
+## Overall pattern
 
-## Failure counts
+Straightforward questions about utility shutoffs and most security deposit questions are usually retrieved well. The harder cases are the ones that combine multiple legal issues or that contain broad tenant-law language that can match a general source just as easily as a focused one.
 
-- `missed_relevant_source`: 6
-- `partial_retrieval`: 2
-- `none`: 4
+Across retrieval modes, BM25 had the most complete misses. Embedding and hybrid retrieval both improved coverage, but the remaining errors were usually partial retrieval errors rather than total misses. That means the system often finds at least one useful source, but still misses another source that would make the answer more complete.
 
-## Main failure patterns
+## Why the model fails
 
-### 1. Lockout + habitability questions are under-retrieved
+The main reason the model fails is not that it retrieves nothing. The more common problem is that it retrieves a broad North Carolina landlord-tenant page when the better answer would come from a narrower source focused on one issue, such as lockouts, repairs, or eviction defense.
 
-Example:
+There are a few recurring causes behind that:
 
-- `q_001`: "My landlord changed the locks after I complained about mold in Durham. What can I do?"
+- broad legal vocabulary overlaps with broad court pages
+- mixed-issue questions activate more than one category at once
+- official statewide pages sometimes outrank narrower self-help sources even when the narrower source is more directly useful
+- some questions include both procedural language and factual housing problems, which makes ranking harder
 
-Expected source IDs:
+In other words, the system struggles most when a question is legally specific but phrased in a way that still resembles a general tenant-law question.
 
-- `nc_002`
-- `nc_005`
-- `nc_007`
+## What inputs are most challenging
 
-Observed behavior:
+The most challenging inputs are:
 
-- retrieval favored broad court help pages such as `NC Courts Landlord Tenant Issues`
-- retrieval did **not** reliably surface the more direct lockout or habitability sources
+- mixed-issue questions, especially lockout plus habitability questions
+- habitability questions phrased in broad terms like “what are my options?”
+- eviction questions that should retrieve both official court procedure and practical self-help guidance
 
-Interpretation:
+These are harder because the retriever has to balance more than one kind of relevance at once. A single broad source may look strong according to keyword overlap, even if it is not the most helpful source for the actual tenant problem.
 
-- the query mixes two issues, `lockout` and `habitability`
-- general eviction vocabulary in court pages is dominating more specific lockout and repair sources
 
-### 2. Habitability questions over-match broad eviction pages
+## Which categories look strongest and weakest
 
-Example:
+Based on the current results:
 
-- `q_004`: "My apartment has mold and my landlord keeps ignoring repair requests. What are my options in North Carolina?"
+- strongest categories: `utility_shutoff`, most `security_deposit` questions
+- weakest categories: `lockout`, `habitability`, and especially mixed-issue questions
 
-Expected source IDs:
+This lines up with the qualitative examples above. Questions with one narrow issue are easier. Questions that combine two issues or mix factual and procedural language are harder.
 
-- `nc_002`
-- `nc_005`
+## What this analysis suggests
 
-Observed behavior:
+The main lesson from the error analysis is that retrieval quality now depends less on finding any source at all and more on ranking the right combination of sources high enough.
 
-- retrieved titles were mostly `NC Courts Landlord Tenant Issues` and `NC Courts Small Claims Landlord Tenant`
-- the dedicated repairs/habitability source did not rank high enough
+The most useful future improvements would be:
 
-Interpretation:
+- stronger preference for issue-specific sources when the question contains clear issue terms
+- better handling of mixed-issue questions
+- continued tuning of broad-source penalties so general pages do not crowd out narrower ones
 
-- words like `options`, `North Carolina`, and general tenant-law language are pulling in broad background sources
-- the repair/habitability signal still needs stronger weighting
-
-### 3. Deposit deduction questions are still attracted to broad landlord-tenant pages
-
-Example:
-
-- `q_005`: "I moved out and my landlord kept my deposit for cleaning and repainting. Is that allowed?"
-
-Expected source IDs:
-
-- `nc_004`
-
-Observed behavior:
-
-- retrieval still preferred broad `NC Courts Landlord Tenant Issues` chunks instead of the dedicated security deposit source
-
-Interpretation:
-
-- the word `moved out` seems to pull in broader landlord-tenant and eviction context
-- deposit-specific keywords need stronger matching when present
-
-### 4. Eviction hearing questions partially retrieve the right materials
-
-Example:
-
-- `q_003`: "I got papers for eviction in Wake County and my hearing is soon. What should I do first?"
-
-Expected source IDs:
-
-- `nc_001`
-- `nc_003`
-- `nc_006`
-
-Observed behavior:
-
-- the system retrieved the two official court sources
-- it did not reliably retrieve the Legal Aid eviction manual
-
-Interpretation:
-
-- the question is strongly procedural, so the official court sources dominate
-- that behavior is partly desirable, but it means the system can miss a practical self-help guide that also belongs in the answer context
-
-## What changed across iterations
-
-### Iteration 1: Data cleaning
-
-We manually cleaned several raw sources to remove:
-
-- OCR/page-number artifacts
-- form-template noise
-- outdated material
-- marketing-heavy third-party text
-
-Impact:
-
-- retrieval stopped surfacing obviously broken chunks from repairs and other sources
-- retrieved snippets became more legible and on-topic
-
-### Iteration 2: Retrieval heuristics and deduplication
-
-We added:
-
-- issue-category hints
-- title-keyword boosts
-- direct-answer phrase boosts such as `10 days`, `30 days`, and `7 days`
-- source-priority bonuses for official NC sources
-- document-level diversity limits
-
-Impact:
-
-- utility shutoff and security deposit questions became much cleaner
-- duplicate chunks from the same source were reduced
-- some broad small-claims pages were pushed lower
-
-## Takeaways
-
-- The strongest categories are now `utility_shutoff`, `security_deposit`, and straightforward `appeal` questions.
-- The weakest categories are mixed-issue questions such as `lockout + mold` and questions where broad landlord-tenant pages outcompete more specific sources.
-- The next best retrieval improvement is stronger source preference for dedicated topical documents when a query contains clear issue-specific terms such as `mold`, `repairs`, `deposit`, or `lockout`.
+That is why the later retrieval changes in the project focused on hybrid ranking, issue-aware heuristics, and multi-label metadata rather than only adding more documents.

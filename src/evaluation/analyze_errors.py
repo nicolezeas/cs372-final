@@ -10,6 +10,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
+def _format_label(text: str) -> str:
+    return str(text).replace("_", " ").title()
+
+
 def run_error_analysis(base_dir: str | Path = ".") -> dict[str, Path]:
     base_dir = Path(base_dir)
     results_dir = base_dir / "data" / "eval" / "results"
@@ -49,18 +53,31 @@ def run_error_analysis(base_dir: str | Path = ".") -> dict[str, Path]:
         .sort_index()
     )
 
+    mode_pivot.index = [_format_label(value) for value in mode_pivot.index]
+    mode_pivot.columns = [_format_label(value) for value in mode_pivot.columns]
+    issue_pivot.index = [_format_label(value) for value in issue_pivot.index]
+    issue_pivot.columns = [_format_label(value) for value in issue_pivot.columns]
+
+    palette = ["#5B7C99", "#A7B1BC", "#7B6D9C", "#4A5A6A", "#B39DDB"]
+
     plt.figure(figsize=(8, 4.5))
-    mode_pivot.plot(kind="bar", stacked=True, ax=plt.gca())
-    plt.ylabel("Question count")
+    mode_pivot.plot(kind="bar", stacked=True, ax=plt.gca(), color=palette)
+    plt.xlabel("Retrieval Mode")
+    plt.ylabel("Question Count")
     plt.title("Failure Types by Retrieval Mode")
+    plt.xticks(rotation=0, ha="center")
+    plt.legend(title="Failure Type", loc="lower left")
     plt.tight_layout()
     plt.savefig(mode_plot)
     plt.close()
 
     plt.figure(figsize=(8, 4.5))
-    issue_pivot.plot(kind="bar", stacked=True, ax=plt.gca())
-    plt.ylabel("Question count")
+    issue_pivot.plot(kind="bar", stacked=True, ax=plt.gca(), color=palette)
+    plt.xlabel("Issue Category")
+    plt.ylabel("Question Count")
     plt.title("Failure Types by Issue Category")
+    plt.xticks(rotation=0, ha="center")
+    plt.legend(title="Failure Type", loc="upper left")
     plt.tight_layout()
     plt.savefig(issue_plot)
     plt.close()

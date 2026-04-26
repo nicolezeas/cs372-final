@@ -1,3 +1,7 @@
-scenario_type,accuracy
-safe,1.0
-unsafe,1.0
+behavior,condition,accuracy
+Disclaimer Included,With Guardrails,1.0
+Disclaimer Included,Without Guardrails,0.0
+Insufficient Support Fallback,With Guardrails,1.0
+Insufficient Support Fallback,Without Guardrails,0.0
+Unsafe Request Blocked,With Guardrails,1.0
+Unsafe Request Blocked,Without Guardrails,0.0

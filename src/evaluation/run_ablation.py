@@ -17,6 +17,20 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
+def _format_label(text: str) -> str:
+    return str(text).replace("_", " ").title()
+
+
+def _short_method_label(text: str) -> str:
+    mapping = {
+        "bm25_only": "BM25 Only",
+        "bm25_plus_heuristics": "BM25 + Heuristics",
+        "bm25_plus_embeddings": "BM25 + Embeddings",
+        "bm25_plus_embeddings_plus_heuristics": "BM25 + Embeddings\n+ Heuristics",
+    }
+    return mapping.get(str(text), _format_label(str(text)))
+
+
 def run_chunk_ablation(
     base_dir: str | Path = ".",
     top_k: int = 5,
@@ -166,18 +180,56 @@ def save_ablation_outputs(
     detail_df.to_csv(detail_path, index=False)
     summary_df.to_csv(summary_path, index=False)
 
-    plt.figure(figsize=(7, 4))
+    plt.figure(figsize=(7.6, 4.4))
     is_categorical = summary_df[x_col].dtype == "object"
+    if label == "ablation_method_retrieval":
+        method_order = [
+            "bm25_only",
+            "bm25_plus_heuristics",
+            "bm25_plus_embeddings",
+            "bm25_plus_embeddings_plus_heuristics",
+        ]
+        summary_df = summary_df.copy()
+        summary_df[x_col] = pd.Categorical(summary_df[x_col], categories=method_order, ordered=True)
+        summary_df = summary_df.sort_values(x_col)
+    palette = {
+        "precision_at_k": "#5B7C99",
+        "recall_at_k": "#A7B1BC",
+        "hit_at_k": "#7B6D9C",
+    }
+    if label == "ablation_method_retrieval":
+        x_values = [_short_method_label(value) for value in summary_df[x_col]]
+    elif is_categorical:
+        x_values = [_format_label(value) for value in summary_df[x_col]]
+    else:
+        x_values = summary_df[x_col]
+
     for metric in ["precision_at_k", "recall_at_k", "hit_at_k"]:
         if is_categorical:
-            plt.plot(summary_df[x_col].astype(str), summary_df[metric], marker="o", label=metric)
+            plt.plot(
+                x_values,
+                summary_df[metric],
+                marker="o",
+                linewidth=2,
+                color=palette[metric],
+                label=_format_label(metric.replace("_at_k", "")),
+            )
         else:
-            plt.plot(summary_df[x_col], summary_df[metric], marker="o", label=metric)
-    plt.xlabel(x_col)
+            plt.plot(
+                x_values,
+                summary_df[metric],
+                marker="o",
+                linewidth=2,
+                color=palette[metric],
+                label=_format_label(metric.replace("_at_k", "")),
+            )
+    plt.xlabel(_format_label(x_col))
     plt.ylabel("Score")
     plt.ylim(0, 1)
-    plt.title(f"Ablation: {label}")
-    plt.legend()
+    plt.title(_format_label(label))
+    if is_categorical:
+        plt.xticks(rotation=0, ha="center")
+    plt.legend(title="Metric")
     plt.tight_layout()
     plt.savefig(plot_path)
     plt.close()
