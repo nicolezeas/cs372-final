@@ -90,8 +90,7 @@ class HybridRetriever:
             and issue_tags & {"housing_general", "landlord_tenant_statute"}
             and issue_hints
         ):
-            # Broad overview/statute chunks are still useful, but on specific
-            # issue questions they should trail focused issue pages.
+            
             bonus -= 0.35
             if len(issue_hints) > 1:
                 bonus -= 0.25

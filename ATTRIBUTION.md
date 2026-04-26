@@ -66,7 +66,6 @@ AI assistance helped revise writing in these files by making formatting better a
 
 - `README.md`
 - `SETUP.md`
-- `RUBRIC_WRITEUP.md`
 - `ATTRIBUTION.md`
 - `data/raw/DATASET_METHODOLOGY.md`
 - `data/eval/results/preprocessing_impact.md`

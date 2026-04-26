@@ -7,4 +7,3 @@ Current top-level documentation includes:
 - `README.md`
 - `SETUP.md`
 - `ATTRIBUTION.md`
-- `RUBRIC_WRITEUP.md`

@@ -82,8 +82,8 @@ python -m src.main --chat-retrieval-only
 
 ## Video Links
 
-- Demo video: `ADD_LINK_HERE`
-- Technical walkthrough video: `ADD_LINK_HERE`
+- Demo video: https://drive.google.com/file/d/1k0vXa_UakUy51nX-wTJknnqyG3MAbbwO/view?usp=sharing 
+- Technical walkthrough video: https://drive.google.com/file/d/1K6oU1VqMT1YBIblVDSAHoTas_24Yh_cG/view?usp=sharing 
 
 ## Evaluation
 
