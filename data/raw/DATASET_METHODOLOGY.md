@@ -1,6 +1,6 @@
 # Data Set Methodology
 
-This project uses a custom-curated dataset focused on North Carolina tenant-rights and housing-law questions. The dataset was built manually rather than downloaded as a ready-made benchmark because the goal of the project was to answer a narrow set of North Carolina housing questions using trustworthy local sources.
+This project uses a custom-curated dataset focused on North Carolina tenant-rights and housing-law questions. The dataset was built manually rather than downloaded because the goal of the project was to answer a narrow set of North Carolina housing questions using trustworthy local sources.
 
 ## List of Sources
 

@@ -1,12 +1,5 @@
 # Preprocessing Impact
 
-This note documents how the preprocessing pipeline affected the usefulness of the dataset for retrieval.
-
-## Where the preprocessing pipeline is implemented
-
-- `src/data/pipeline.py`
-- `src/data/clean.py`
-
 ## Data quality challenges addressed
 
 The preprocessing work in this project mainly addressed:

@@ -53,7 +53,7 @@ Takeaway:
 
 ## Overall qualitative conclusion
 
-- `bm25` is a reasonable lexical baseline but misses some semantically phrased questions.
-- `embedding` is strongest on this small evaluation set, especially for direct fact questions.
-- `hybrid` offers a more interpretable retrieval path and stronger control knobs, even though its current heuristics do not yet beat pure embeddings on every metric.
-- The main remaining weakness is mixed-issue retrieval, especially where broad court guidance competes with more specific topical sources.
+- `bm25` is a reasonable lexical baseline but misses some semantically phrased questions and has the weakest overall retrieval quality.
+- `embedding` is strong on direct fact questions and helps produce cleaner top results on narrow issues like utility shutoff and security deposits.
+- `hybrid` now performs best overall on the current benchmark because it combines strong retrieval coverage with better issue-aware ranking, even though mixed-issue questions are still difficult.
+- The main remaining weakness is mixed-issue retrieval, especially where broad court guidance competes with more specific lockout, repair, or eviction-help sources.

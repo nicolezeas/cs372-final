@@ -93,7 +93,7 @@ with st.sidebar:
         reset_session()
         st.rerun()
 
-    st.markdown("### Example Questions")
+    st.markdown("### Things You Can Ask")
     for example in EXAMPLE_QUESTIONS:
         if st.button(example, key=f"example::{example}", use_container_width=True):
             st.session_state.pending_example = example
@@ -154,4 +154,4 @@ if current_input:
             session.memory.add_turn("assistant", reply)
 
 if not session.memory.turns:
-    st.info("Try one of the example questions from the sidebar, or type your own question below.")
+    st.info("Try one of the sample questions from the sidebar, or type your own question below.")

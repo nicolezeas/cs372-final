@@ -33,10 +33,16 @@ This reads the curated sources in `data/raw`, cleans them, and prepares them for
 
 ## Running the Project
 
+### Public web app
+
+The deployed Streamlit app is available at:
+
+- `https://cs372-final-homehe1p.streamlit.app/`
+
 ### One-shot terminal usage
 
 ```bash
-python -m src.main --question "Can my landlord lock me out without a court order in North Carolina?"
+python -m src.main --question "YOUR_QUESTION_HERE"
 ```
 
 ### Multi-turn terminal chat
@@ -45,16 +51,22 @@ python -m src.main --question "Can my landlord lock me out without a court order
 python -m src.main --chat
 ```
 
+### Multi-turn retrieval-only chat
+
+```bash
+python -m src.main --chat-retrieval-only
+```
+
 ### Retrieval debugging
 
 ```bash
-python -m src.main --retrieval-only --question "How many days do I have to appeal an eviction in NC?"
+python -m src.main --retrieval-only --question "YOUR_QUESTION_HERE"
 ```
 
 ### Prompt preview
 
 ```bash
-python -m src.main --prompt-only --question "When does a landlord have to return a security deposit in North Carolina?"
+python -m src.main --prompt-only --question "YOUR_QUESTION_HERE"
 ```
 
 ### Local web app
@@ -63,18 +75,12 @@ python -m src.main --prompt-only --question "When does a landlord have to return
 streamlit run src/app.py
 ```
 
-Then open the local URL printed by Streamlit, usually `http://localhost:8501`.
+Then open the local URL printed by Streamlit.
 
 ## Grader Notes
 
-- The project uses Gemini for answer generation.
-- If Gemini is temporarily unavailable or a key is not configured, the retrieval and prompt-debug modes still work.
-- The most reliable fallback commands for testing core functionality are:
-
-```bash
-python -m src.main --retrieval-only --question "Can a landlord shut off utilities if I do not pay?"
-python -m src.main --prompt-only --question "Can my landlord lock me out without a court order in North Carolina?"
-```
+- The project uses Gemini for answer generation, but retrieval and prompt-debug modes work without keys.
+- The deployed Streamlit app uses the same retrieval and generation pipeline as the local app.
 
 ## Evaluation Scripts
 
@@ -95,3 +101,5 @@ Run guardrail evaluation:
 ```bash
 MPLCONFIGDIR=/tmp .venv/bin/python -m src.evaluation.run_guardrail_eval
 ```
+
+This evaluation compares the guarded and unguarded system on unsafe-request blocking, disclaimer inclusion, and insufficient-support fallback behavior.
