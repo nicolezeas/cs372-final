@@ -20,6 +20,20 @@ import matplotlib.pyplot as plt
 from src.retrieval.hybrid import HybridRetriever
 
 
+MODE_LABELS = {
+    "bm25": "BM25",
+    "embedding": "Embedding",
+    "hybrid": "Hybrid",
+    "bm25_reranked": "BM25 + Heuristics",
+}
+
+METRIC_COLORS = {
+    "precision_at_k": "#5B7C99",
+    "recall_at_k": "#A7B3C0",
+    "hit_at_k": "#7C6A9E",
+}
+
+
 def load_eval_questions(base_dir: str | Path = ".") -> list[dict]:
     eval_path = Path(base_dir) / "data" / "eval" / "eval_questions.csv"
     with eval_path.open(encoding="utf-8") as handle:
@@ -180,17 +194,44 @@ def save_outputs(
     )
     failure_df.to_csv(failure_path, index=False)
 
-    metric_df = summary_df.melt(id_vars="retrieval_mode", var_name="metric", value_name="value")
-    plt.figure(figsize=(7, 4))
-    for metric in ["precision_at_k", "recall_at_k", "hit_at_k"]:
-        subset = metric_df[metric_df["metric"] == metric]
+    plot_df = summary_df.copy()
+    plot_df["retrieval_mode"] = plot_df["retrieval_mode"].map(lambda mode: MODE_LABELS.get(mode, mode.replace("_", " ").title()))
+    plot_df["mode_order"] = plot_df["retrieval_mode"].map(
+        {
+            "BM25": 0,
+            "Embedding": 1,
+            "Hybrid": 2,
+            "BM25 + Heuristics": 3,
+        }
+    )
+    plot_df = plot_df.sort_values("mode_order")
+
+    metrics = ["precision_at_k", "recall_at_k", "hit_at_k"]
+    top_k_value = int(detail_df["top_k"].iloc[0]) if not detail_df.empty else 5
+    metric_labels = {
+        "precision_at_k": f"Precision @ {top_k_value}",
+        "recall_at_k": f"Recall @ {top_k_value}",
+        "hit_at_k": f"Hit @ {top_k_value}",
+    }
+    x_positions = range(len(plot_df))
+    bar_width = 0.24
+
+    plt.figure(figsize=(8.2, 4.8))
+    for index, metric in enumerate(metrics):
+        offsets = [x + (index - 1) * bar_width for x in x_positions]
         plt.bar(
-            [f"{row['retrieval_mode']}\n{metric}" for _, row in subset.iterrows()],
-            subset["value"],
+            offsets,
+            plot_df[metric],
+            width=bar_width,
+            label=metric_labels[metric],
+            color=METRIC_COLORS[metric],
         )
     plt.ylim(0, 1)
+    plt.xticks(list(x_positions), plot_df["retrieval_mode"])
     plt.ylabel("Score")
+    plt.xlabel("Retrieval Mode")
     plt.title("Retrieval Evaluation Summary")
+    plt.legend(title="Metric")
     plt.tight_layout()
     plt.savefig(plot_path)
     plt.close()
